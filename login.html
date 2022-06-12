@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prototipo v2.0 - New</title>
+    <!-- JS-->
+    <script src="js/all.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <!-- Icono-->
+    <link rel="icon" type="image/x-icon" href="img/proto.ico" />
+    <!-- Google fonts-->
+    <link
+      href="https://fonts.googleapis.com/css?family=Varela+Round"
+      rel="stylesheet"
+    />
+    <!-- CSS-->
+    <link href="css/styles.css" rel="stylesheet" />
+    <link href="css/style_login.css" rel="stylesheet" />
+    <link href="css/fontawesome.min.css" rel="stylesheet" />
+    <link href="css/all.css" rel="stylesheet" />
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+  </head>
+  <body id="principal">
+    
+    <!--Parte de la cabecera-->
+    <div class="container px-4 px-lg-5">
+      <br />
+      <a href="index.html"><h6 class="text-white-50">Prototipo v3.0</h6></a>
+    </div>
+
+    <!--Parte del Login Div-->
+
+    <div class="wrapper">
+      <div class="logo"><img src="img/login.png" alt="" /></div>
+        <div class="text-center mt-4 name" ref="index.html">SES-PE</div>
+      
+        <form action="validate.php" method="POST" class="p-3 mt-3">
+          <div class="form-field d-flex align-items-center">
+            <span class="fas fa-user"></span>
+            <input type="text" name="username" id="userName" placeholder="Usuario" autocomplete="off" />
+          </div>
+          
+          <div class="form-field d-flex align-items-center">
+            <span class="fas fa-key"></span>
+            <input type="password" name="password" id="pwd" placeholder="Contraseña" autocomplete="off" />
+          </div>
+          <button type="submit" name="submit" class="btn btn-success">Ingresar</button>
+        </form>
+    </div>
+
+    <script src="..js/bootstrap.min.js" crossorigin="anonymous"></script>
+  </body>
+</html>
