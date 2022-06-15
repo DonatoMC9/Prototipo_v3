@@ -59,7 +59,7 @@ $vcb_int = cambioFuzzy($vcb_int);
 
 //REGLAS FUZZY PARA LA SALIDA DE VCB
 
-$vcb_salida = reglasFuzzy($vcb_com, $vcb_cdd, $vcb_ini, $vcb_tre, $vcb_int);
+$vcb_salida  = reglasFuzzy($vcb_com, $vcb_cdd, $vcb_ini, $vcb_tre, $vcb_int);
 
 // META REGLAS FUZZY DE SALIDA FINAL
 

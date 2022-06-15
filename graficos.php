@@ -11,6 +11,7 @@ $result = mysqli_query($mysqli, $query);
 $query2 = 'SELECT * FROM postulantes p INNER JOIN vcb_notas v ON p.id = v.id_post ORDER BY suma DESC';
 $result2 = mysqli_query($mysqli, $query2);
 $cont = 1;
+
 while($row = mysqli_fetch_array($result2) and $cont <= 3)
 {
     if($cont == 1){
