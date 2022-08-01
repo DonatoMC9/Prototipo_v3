@@ -138,12 +138,8 @@ while($row = mysqli_fetch_array($result2) and $cont <= 3)
 					echo '<td>' . $row['nombres'] . '</td>';
 					echo '<td>' . $row['ape_paterno'] . '</td>';
 					echo '<td>' . $row['ape_materno'] . '</td>';
-					echo '<td class="table-warning text-center">' .
-						$row['vcd_suma'] .
-						'</td>';
-					echo '<td class="table-warning text-center">' .
-						$row['vcd_salida'] .
-						'</td>';
+					echo '<td class="table-warning text-center">' . $row['vcd_suma'] . '</td>';
+					echo '<td class="table-warning text-center">' . $row['vcd_salida'] . '</td>';
 					echo '<td class="table-success text-center">' . $row['vcb_com'] . '</td>';
 					echo '<td class="table-success text-center">' . $row['vcb_cdd'] . '</td>';
 					echo '<td class="table-success text-center">' . $row['vcb_ini'] . '</td>';

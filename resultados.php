@@ -2,7 +2,7 @@
 include 'session.php';
 include 'config.php';    
 
-$query = "SELECT * FROM postulantes p INNER JOIN evaluacion e ON p.id = e.id_postulante ORDER BY vcb_suma DESC";
+$query = "SELECT * FROM postulantes p INNER JOIN evaluacion e ON p.id = e.id_postulante";
 $result = mysqli_query($mysqli, $query);    
 
 ?>

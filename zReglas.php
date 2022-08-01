@@ -1,7 +1,5 @@
 <?php
 
-
-
 // Función para la suma de las Variables Competencias Duras
 
 function sumaCompDuras($var1, $var2, $var3, $var4, $var5)
